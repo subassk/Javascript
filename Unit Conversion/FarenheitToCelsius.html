@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Farenheit to Celsius</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="menu">
+			<ul>
+				<li>Temparature Conversion <a href="C:\Users\Cheran\Desktop\Revature\Project1\FarenheitToCelsius.html"> </br> "Farenheit To Celsius" </a>.</li></br>
+				<li> Cooking Measurement <a href="C:\Users\Cheran\Desktop\Revature\Project1\CupsToTeaspoons.html"> </br> "Cups to Teaspoons" </a>.</li></br>	
+				<li> Length Conversion <a href="C:\Users\Cheran\Desktop\Revature\Project1\LeaguesToFurlongs.html"> </br> "leagues to Furlongs" </a>.</li></br>
+				<li> Index <a href="C:\Users\Cheran\Desktop\Revature\Project1\index.html"> "link" </a></li>	
+			</ul>
+		</div>
+		<div class="content">
+			<h1>TEMPERATURE CONVERSION: CELSIUS TO FAHRENHEIT,</h1>
+			<h2>CONVERT F TO C OR C TO F—AND LEARN THE FORMULAS!</h2>
+				<h3>ABOUT FAHRENHEIT AND CELSIUS</h3>
+					<p>	The Fahrenheit temperature scale is named for German physicist Daniel Gabriel Fahrenheit and is the measurement of temperature commonly used by the United States (and its associated territories) and by several nations in the Caribbean. On the Fahrenheit scale, water freezes at 32°F and boils at 212°F (at sea level).</p>
+					<p>The Celsius temperature scale—originally called centigrade and later renamed for Swedish astronomer Anders Celsius—is used almost everywhere else in the world. On the Celsius scale, water freezes at 0°C and boils at 100°C (at sea level).</p>
+					<p>F° TO C°: FAHRENHEIT TO CELSIUS CONVERSION FORMULA
+					To convert temperatures in degrees Fahrenheit to Celsius, subtract 32 and multiply by .5556 (or 5/9).
+									Example: (50°F - 32) x .5556 = 10°C</p>
+		</div>
+		<script>
+			function convertfarenToCelsius() {
+			  var faren = prompt("Please enter degree Farenheit",null);
+			  if (faren != null) {
+				var celsius = (faren - 32) * ( 5 / 9 );
+				alert("Degree Celsius is : "+celsius );
+			  }
+			}
+			convertfarenToCelsius();
+			</script>
+	</body>
+</html>

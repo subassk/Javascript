@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Leagues To Furlongs</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class = "menu">
+			<ul>
+				<li>Temparature Conversion <a href="C:\Users\Cheran\Desktop\Revature\Project1\FarenheitToCelsius.html"> </br> "Farenheit To Celsius" </a>.</li></br>
+				<li> Cooking Measurement <a href="C:\Users\Cheran\Desktop\Revature\Project1\CupsToTeaspoons.html"> </br> "Cups to Teaspoons" </a>.</li></br>	
+				<li> Length Conversion <a href="C:\Users\Cheran\Desktop\Revature\Project1\LeaguesToFurlongs.html"> </br> "leagues to Furlongs" </a>.</li></br>
+				<li> Index <a href="C:\Users\Cheran\Desktop\Revature\Project1\index.html"> "link" </a></li>		
+			</ul>
+		</div>
+		<div class = "content">
+			<h1>LENGTH CONVERSION: LEAGUES TO FURLONGS,</h1>
+			<h2>ABOUT LEAGUES AND FURLONGS</h2>
+			<h3>Leagues</h3>
+				<p>1 League:
+					4 000 meters. A general or metric league of 4 kilometers. Leagues based on the mile are typically smaller at 3 miles, however there are many variations. Used by Jules Verne in 20 000 Leagues Under the Sea. 1 League (metric) = 4 000 meters (SI unit).</p>
+				<p>A unit of distance equal to 3.0 statute miles (4.8 kilometers). Note that there also Nautical Leagues, UK Leagues 	and UK Nautical Leagues which all differ.</p>
+			<h3>Furlongs</h3>
+				<p>A unit of length equal to 220 yards still used widley in horse racing</p>
+				<p>1 Furlong:
+				10 Chains = 660 ft = 220 yd</p>
+				<p>US Leagues to Furlongs formula
+				fur =US lea * 24.000</p>
+		</div>
+		<script>
+			function convertLeaguesToFurlongs() {
+			  var leagues = prompt("Please enter Leagues measure : ",null);
+			  if (leagues != null) {
+				var furlongs = leagues * 24.00;
+				alert("Furlong measure is : "+furlongs );
+			  }
+			}
+			convertLeaguesToFurlongs();
+			</script>
+	</body>
+</html>
