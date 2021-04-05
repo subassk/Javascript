@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Hangman</title>
+  <script src="scripts/game.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <form>
+        <input id = "letter" name="drawLetter" maxlength="1" type="text"/></br>
+        <button id="submitButton" type = "submit">Submit</button></br>
+        <input id ="wordReveal" name="Wordreveal" type = "text" readonly="readonly" /></form></br>
+        <input id ="strikeLetter" name="StrikeLetters" type = "text" readonly="readonly" /></form></br>
+        <img id="image-area" src="">
+    </form>
+    <script > 
+      document.getElementById("submitButton").addEventListener("click", processGuess);
+    </script>
+
+</body>
+</html>
